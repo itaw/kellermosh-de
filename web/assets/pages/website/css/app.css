@@ -5,6 +5,106 @@
  * (c) Florian Weber
  */
 
+html,
+body {
+    height: 100%;
+    background-color: #f5f5f5;
+    font-size: 20px;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+#footer {
+    height: 60px;
+    background-color: #dddddd;
+}
+
+/*
+ * KM
+ */
+
+.km-header-container {
+    background-color: #f5f5f5;
+}
+
+.km-navigation-container {
+    background-color: #d9534f;
+}
+
+.km-content-container {
+}
+
+/* footer */
+.km-footer {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.km-footer a:link {
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.km-footer a:hover {
+    color: #000000;
+}
+
+/* logo */
+.km-logo {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.km-logo-header h1 {
+    font-size: 90px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.km-logo-header h1 small {
+    font-size: 30px;
+}
+
+/* content */
+.km-content {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+/* NAV */
+ul.km-nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.km-nav li {
+    float: left;
+    margin-right: 115px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 45px;
+    padding-bottom: 3px;
+}
+
+ul.km-nav li.km-active > a {
+    color: #ffffff;
+}
+
+ul.km-nav li a:hover {
+    color: #ffffff;
+}
+
+ul.km-nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
 /*
  * Fonts
  */
