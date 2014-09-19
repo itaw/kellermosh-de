@@ -1,0 +1,26 @@
+/*
+ * kellermosh.de
+ * Main CSS
+ *
+ * (c) Florian Weber
+ */
+
+/*
+ * Fonts
+ */
+
+.km-font-pt-sans-narrow {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.km-font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.km-font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.km-font-open-sans-condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
