@@ -26,13 +26,13 @@ class PageController extends AbstractController
         return $this->render('kmPageBundle:Page:location.html.twig');
     }
 
-    public function contactAction()
+    public function kontaktAction()
     {
-        return $this->render('kmPageBundle:Page:contact.html.twig');
+        return $this->render('kmPageBundle:Page:kontakt.html.twig');
     }
 
-    public function imprintAction()
+    public function impressumAction()
     {
-        return $this->render('kmPageBundle:Page:imprint.html.twig');
+        return $this->render('kmPageBundle:Page:impressum.html.twig');
     }
 }

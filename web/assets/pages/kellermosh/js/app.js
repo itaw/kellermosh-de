@@ -29,7 +29,7 @@ $(document).ready(function () {
 
         i++;
 
-        i = i % 3;
+        i = i % headerImages.length;
 
     }, 5000);
 

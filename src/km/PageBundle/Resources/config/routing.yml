@@ -10,13 +10,13 @@ location:
     path:     /location
     defaults: { _controller: kmPageBundle:Page:location }
 
-contact:
-    path:     /contact
-    defaults: { _controller: kmPageBundle:Page:contact }
+kontakt:
+    path:     /kontakt
+    defaults: { _controller: kmPageBundle:Page:kontakt }
 
-imprint:
-    path:     /imprint
-    defaults: { _controller: kmPageBundle:Page:imprint }
+impressum:
+    path:     /impressum
+    defaults: { _controller: kmPageBundle:Page:impressum }
 
 bands:
     resource: "@kmPageBundle/Resources/config/Bands/routing.yml"

@@ -59,6 +59,10 @@ body {
     color: #000000;
 }
 
+.km-footer a:visited {
+    color: #c61b1c;
+}
+
 /* logo */
 .km-logo {
     font-family: 'Open Sans Condensed', sans-serif;
