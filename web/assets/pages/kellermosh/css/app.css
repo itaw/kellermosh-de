@@ -26,13 +26,26 @@ body {
     background-color: #393939;
 }
 
+a:link {
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c61b1c;
+}
+
+a:visited {
+    color: #7f7f7f;
+}
+
 /*
  * KM
  */
 
 .km-header-container {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     background-position: center;
 }
 
@@ -84,8 +97,8 @@ body {
 
 /* content */
 .km-content {
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 /* NAV */
@@ -116,7 +129,7 @@ ul.km-nav a:link {
     color: #000000;
 }
 
-ul.km-nav a:visited{
+ul.km-nav a:visited {
     color: #000000;
 }
 
