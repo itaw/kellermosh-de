@@ -12,7 +12,20 @@
 
     <span class="hidden" id="current-page">{% block currentPage %}{% endblock %}</span>
 
-    <!-- header images -->
+    <!-- ANALYTICS -->
+    <!--------------->
+
+    <!-- OGP -->
+    <meta property="og:url" content="{{ app.request.getUri() }}" />
+    <meta property="og:title" content="{{ block('title') }}" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="440" />
+    <meta property="og:image:height" content="440" />
+    <meta property="og:description" content="Kellermosh - Das Metal Event in Hoyerswerda!" />
+    <!--------->
+
+    <!-- HEADER IMAGES -->
     <div class="hidden" id="data-header-assets">
         <span>{{ asset('assets/pages/kellermosh/img/header/km0.jpg') }}</span>
         <span>{{ asset('assets/pages/kellermosh/img/header/km1.jpg') }}</span>
@@ -20,6 +33,7 @@
         <span>{{ asset('assets/pages/kellermosh/img/header/km3.jpg') }}</span>
         <span>{{ asset('assets/pages/kellermosh/img/header/km4.jpg') }}</span>
     </div>
+    <!------------------->
 
     <div id="wrap">
 
