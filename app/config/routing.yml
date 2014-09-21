@@ -1,0 +1,7 @@
+km_admin:
+    resource: "@kmAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+km_page:
+    resource: "@kmPageBundle/Resources/config/routing.yml"
+    prefix:   /

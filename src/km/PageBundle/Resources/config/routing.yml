@@ -1,0 +1,23 @@
+index:
+    path:     /
+    defaults: { _controller: kmPageBundle:Page:index }
+
+info:
+    path:     /info
+    defaults: { _controller: kmPageBundle:Page:info }
+
+location:
+    path:     /location
+    defaults: { _controller: kmPageBundle:Page:location }
+
+contact:
+    path:     /contact
+    defaults: { _controller: kmPageBundle:Page:contact }
+
+imprint:
+    path:     /imprint
+    defaults: { _controller: kmPageBundle:Page:imprint }
+
+bands:
+    resource: "@kmPageBundle/Resources/config/Bands/routing.yml"
+    prefix:   /bands

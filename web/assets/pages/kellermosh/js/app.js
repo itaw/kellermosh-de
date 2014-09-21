@@ -1,11 +1,31 @@
 $(document).ready(function () {
 
-    $('.km-header-container').css('background-image', 'url("../web/assets/pages/kellermosh/img/km0.jpg")');
+    /*
+     * nav
+     */
+    var currentPage = $('#current-page').html();
+    $('#nl-' + currentPage).addClass('km-active');
+
+    /*
+     * header images
+     */
+    var getHeaderImages = function () {
+        var array = [];
+        $.each($('#data-header-assets').children(), function (i, asset) {
+            array.push($(asset).html());
+        });
+
+        return array;
+    };
+
+    var headerImages = getHeaderImages();
+
+    $('.km-header-container').css('background-image', 'url("' + headerImages[0] + '")');
     var i = 1;
 
-    setInterval(function() {
+    setInterval(function () {
 
-        $('.km-header-container').css('background-image', 'url("../web/assets/pages/kellermosh/img/km' + i + '.jpg")');
+        $('.km-header-container').css('background-image', 'url("' + headerImages[i] + '")');
 
         i++;
 

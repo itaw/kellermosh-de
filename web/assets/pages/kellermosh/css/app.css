@@ -112,13 +112,8 @@ ul.km-nav a:link {
     color: #000000;
 }
 
-/* POST */
-.km-post-date {
-    font-size: 16px;
-    text-align: right;
-    padding-top: 10px;
-    border-top: 1px solid #dddddd;
-    margin-top: 19px;
+ul.km-nav a:visited{
+    color: #000000;
 }
 
 /*
