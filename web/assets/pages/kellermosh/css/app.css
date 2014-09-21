@@ -1,0 +1,142 @@
+/*
+ * kellermosh.de
+ * Main CSS
+ *
+ * (c) Florian Weber
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #262626;
+    font-size: 20px;
+    color: #dddddd;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+#footer {
+    height: 60px;
+    background-color: #393939;
+}
+
+/*
+ * KM
+ */
+
+.km-header-container {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-position: center;
+}
+
+.km-navigation-container {
+    background-color: #9a1718;
+}
+
+.km-content-container {
+}
+
+/* footer */
+.km-footer {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.km-footer a:link {
+    color: #c61b1c;
+    text-decoration: none;
+}
+
+.km-footer a:hover {
+    color: #000000;
+}
+
+/* logo */
+.km-logo {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.km-logo-header h1 {
+    font-size: 120px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+.km-logo-header h1 small {
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+/* content */
+.km-content {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+/* NAV */
+ul.km-nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.km-nav li {
+    float: left;
+    margin-right: 115px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 45px;
+    padding-bottom: 3px;
+}
+
+ul.km-nav li.km-active > a {
+    color: #ffffff;
+}
+
+ul.km-nav li a:hover {
+    color: #ffffff;
+}
+
+ul.km-nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* POST */
+.km-post-date {
+    font-size: 16px;
+    text-align: right;
+    padding-top: 10px;
+    border-top: 1px solid #dddddd;
+    margin-top: 19px;
+}
+
+/*
+ * Fonts
+ */
+
+.km-font-pt-sans-narrow {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.km-font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.km-font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.km-font-open-sans-condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
